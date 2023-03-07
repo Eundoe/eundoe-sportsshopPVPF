@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+
+
+header{
+  box-sizing: border-box;
+  width: 100%;
+  /* width: 1390px; */
+  padding: 20px;
+  background-color: #fff;
+  position: fixed;
+  left: 0; top: 0;
+  box-shadow: -1px 3px 3px rgba(0, 0, 0, 0.6);
+  z-index: 99;
+}
+
+div#headwrap{
+  width: 87.05035971223022%;
+  /* width: 1210px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+div#headwrap>h1{
+  width: 140px;
+  height: 90px;
+}
+
+div#headwrap>h1>a>img{
+  height: 100%;
+}
+
+div#headwrap>p.mainmenu580{
+  display: none;
+}
+
+div#headwrap>p.mainmenu580>span{
+
+}
+
+
+
+div#mlink{
+  width: 74.3801652892562%;
+  /* width: 900px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+div#mlink>p.close{
+  display: none;
+}
+
+div#mlink>p.close>span{}
+
+/* 980 580 menu */
+
+div#mlink>p.mainmenu{
+  display: none;
+}
+
+div#mlink>p.mainmenu>span{
+}
+
+
+
+div#mlink>nav{}
+div#mlink>nav>ul{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+div#mlink>nav>ul>li{
+  margin: 0 22px;
+}
+
+div#mlink>nav>ul>li>a{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+div#login{}
+div#login>span{
+  display: inline-block;
+  margin: 0 4px;
+  margin-bottom: 12px;
+}
+
+div#login>span>a{}
+
+ul#mypage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul#mypage>li{
+  width: 20px; height: 20px;
+  margin: 0 5px;
+}
+
+ul#mypage>li>a{}
+ul#mypage>li>a>span{}
+
+
+
+/* MediaQuery */
+@media screen and (min-width : 1390px) {
+
+  div#headwrap{
+    width: 1210px;}
+
+
+}
+@media screen and (min-width : 981px) and (max-width: 1389px) {
+
+  div#mlink{
+    width: 900px;}
+}
+@media screen and (min-width : 581px) and (max-width: 979px) {
+
+  div#headwrap{
+    width: 94.48979591836735%;
+    justify-content: space-between;
+  }
+
+
+
+  div#mlink>p.mainmenu{
+    display: block;
+    width: 35px; height: 35px;
+    position: absolute;
+    right: -25px; top: -8px;
+    text-align: center;
+    border: 2px solid #000;
+  }
+
+  div#mlink>p.mainmenu>span{
+    font-size: 35px;
+    font-weight: bold;
+    vertical-align: middle;
+  }
+
+  div#mlink>p.close{
+    display: none;
+    position: fixed;
+    right: 15px; top: 15px;
+    z-index: 999;
+  }
+
+  div#mlink>p.close>span{
+    display: block;
+    font-size: 30px;
+    background-color: #fff;
+  
+  }
+
+  div#mlink>nav{
+    width: 100%;
+  }
+
+  div#mlink>nav>ul{
+    justify-content: flex-start;
+  }
+
+  div#mlink>nav>ul>li{
+
+    margin: 0px 10px;
+  }
+  
+  div#mlink>nav>ul>li>a{
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+
+  div#login{
+    display: none;
+    box-sizing: border-box;
+    position: fixed;
+    width: 250px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    right: 0; top: 0;
+    text-align: center;
+    padding-top: 70px;
+
+  }
+
+  div#login>span{
+    display: block;
+    margin: 0 4px;
+    margin-bottom: 10px;
+  }
+
+  div#login>span>a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.4em;
+  }
+
+  ul#mypage>li{
+    width: 30px; height: 30px;
+    margin: 10px 10px;
+  }
+
+  ul#mypage>li>a{
+    color: #fff;
+  }
+ul#mypage>li>a>span{
+  font-size: 30px;
+}
+
+
+}
+@media screen and (min-width : 5px) and (max-width: 579px) {
+
+  div#headwrap{
+    width: 94.48979591836735%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+  div#headwrap>h1{
+    width: 100%;
+    text-align: center;
+}
+
+div#headwrap>p.mainmenu580{
+  display: block;
+  width: 35px; height: 35px;
+  position: absolute;
+  right: -20px; top: 30px;
+  border: 3px solid #000;
+  text-align: center;
+}
+div#headwrap>p.mainmenu580>span{
+  font-size: 35px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+
+/* mainmenu */
+
+div#mlink{
+  display: none;
+  position: fixed;
+  left: 0; top: 0;
+  width: 100%; height: 100vh;
+  z-index: 105;
+  width: 100%;
+  /* width: 900px; */
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 180px;
+}
+
+div#mlink>p.close{
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  right: 15px; top: 15px;
+}
+
+
+div#mlink>p.close>span{
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+div#mlink>nav{
+  margin-bottom: 100px;
+}
+
+div#mlink>nav>ul{
+  display: block;
+}
+
+div#mlink>nav>ul>li{
+  margin: 0 auto 20px;
+  padding: 5px;
+
+}
+
+div#mlink>nav>ul>li>a{
+  font-size: 38px;
+  color: #fff;
+  border-bottom: 2px double #fff;
+  padding: 0 10px;
+}
+
+
+div#login{
+  text-align: center;
+}
+
+div#login>span{
+  margin-bottom: 40px;
+}
+div#login>span>a{
+  font-size: 22px;
+  color: #fff;
+  padding: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+ul#mypage>li{
+  width: 40px; height: 40px;
+  margin: 0 10px;
+}
+
+ul#mypage>li>a{
+  color: #fff;
+}
+
+ul#mypage>li>a>span{
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+
+}

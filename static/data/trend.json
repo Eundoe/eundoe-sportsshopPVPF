@@ -1,0 +1,56 @@
+{
+  "man" : [
+    {
+      "id" : 0,
+      "product" : "trendy1",
+      "price" : 100000
+    },
+    {
+      "id" : 1,
+      "product" : "trendy2",
+      "price" : 200000
+    },
+    {
+      "id" : 2,
+      "product" : "trendy3",
+      "price" : 300000
+    },
+    {
+      "id" : 3,
+      "product" : "trendy4",
+      "price" : 400000
+    },
+    {
+      "id" : 4,
+      "product" : "trendy5",
+      "price" : 500000
+    }
+  ],
+  "woman" : [
+    {
+      "id" : 0,
+      "product" : "trendy1",
+      "price" : 500000
+    },
+    {
+      "id" : 1,
+      "product" : "trendy2",
+      "price" : 600000
+    },
+    {
+      "id" : 2,
+      "product" : "trendy3",
+      "price" : 700000
+    },
+    {
+      "id" : 3,
+      "product" : "trendy4",
+      "price" : 800000
+    },
+    {
+      "id" : 4,
+      "product" : "trendy5",
+      "price" : 900000
+    }
+  ]
+}

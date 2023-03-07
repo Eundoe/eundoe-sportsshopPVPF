@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./error.css);
+
+
+article#cart{
+  width: 100%;
+  /* width: 1390px; */
+  padding-top: 130px;
+  margin: 0 auto;
+}
+
+div#cartwrap{
+  padding: 60px 0;
+  width: 87.05035971223022%;
+  /* width: 1210px; */
+  margin:  0 auto;
+  background-color: #fff;
+}
+
+div#cartwrap>h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+div#cartlist{
+  padding: 5px;
+
+}
+
+div#cartlist>figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+div#cartlist>figure>p{
+  width: 200px;
+  margin: 0 5px;
+}
+
+div#cartlist>figure>p>img{
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+
+div#cartlist>figure>figcaption{
+  width: 600px;
+  margin: 0 5px;
+  position: relative;
+}
+
+div#cartlist>figure>figcaption>dl{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 0;
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+div#cartlist>figure>figcaption>dl>dt{
+  width: 40%;
+}
+
+div#cartlist>figure>figcaption>dl>dd{
+  width: 40%;
+  text-align: center;
+}
+p#cartdelete{
+  position: absolute;
+  width: 40px; height: 40px;
+  right: 0; top: 50%;
+  margin-top: -20px;
+}
+
+p#cartdelete>span{
+  font-size: 40px;
+  cursor: pointer;
+}
+
+p.empty {
+  padding: 50px 0;
+  font-size: 34px;
+  text-align: center;
+  border-top: 2px dotted #000;
+}
+
+@media screen and (min-width:1390px) {}
+@media screen and (min-width:1090px) and (max-width:1389px) {
+
+
+}
+@media screen and (min-width:980px) and (max-width:1089px) {
+
+
+  div#cartwrap{
+    width: 98%;
+  }
+
+}
+@media screen and (min-width:580px) and (max-width:979px) {
+
+  div#cartwrap{
+    width: 100%;
+  }
+
+  div#cartlist>figure>p{
+    width: 30.61224489795918%;
+  }
+
+  div#cartlist>figure>p>img{
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+  }
+  div#cartlist>figure>figcaption{
+    width: 61.22448979591837%;
+  }
+
+  
+  
+}
+@media screen and (min-width:5px) and (max-width:579px) {
+  div#cartwrap{
+    width: 100%;
+  }
+
+  div#cartlist>figure>p{
+    width: 30.61224489795918%;
+  }
+
+  div#cartlist>figure>p>img{
+    max-width: 120px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+  }
+  div#cartlist>figure>figcaption{
+    width: 61.22448979591837%;
+  }
+
+
+
+
+}

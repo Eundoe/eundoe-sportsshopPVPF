@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./error.css);
+
+article#event{
+  padding-top: 150px;
+  width: 100%;
+  /* width: 1390px; */
+}
+
+div#eventwrap{
+  padding: 60px 0;
+  width: 87.05035971223022%;
+  /* width: 1210px; */
+  margin:  0 auto;
+}
+
+div#eventwrap>h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+
+div#eventwrap>div{
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  height: 300px;
+  position: relative;
+}
+
+div#eventwrap>div>dl{
+  box-sizing: border-box;
+  width: 360px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.545);
+  text-align: center;
+  padding-top: 70px;
+}
+
+div#eventwrap>div>dl>dt{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+div#eventwrap>div>dl>dd{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+
+div#eventwrap>div>dl>dd>button{
+  font-size: 18px;
+  line-height: 24px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
+
+
+div#eventwrap>div>dl>dd>a{
+  color: red;
+}
+
+div#roullete>dl{
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  margin-top: -125px;
+}
+div#roullete{
+  background: url("../static/image/event/back1.png") no-repeat center/cover;
+}
+
+div#newmem{
+  background: url("../static/image/event/back2.png") no-repeat center/cover;
+}
+
+div#newmem>dl{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  margin-top: -125px;
+  margin-right: -180px;
+}
+
+
+
+/* event Modal */
+
+div#emodal{
+  display: none;
+  position: fixed;
+  left: 0; top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  overflow-y: scroll;
+}
+
+p#emodalclose{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px; right: 20px;
+}
+
+p#emodalclose>span{
+  font-size: 40px;
+  color: #fff;
+}
+
+div#emodalwrap{
+  position: absolute;
+  left: 50%; top: 50px;
+  margin-left: -400px;
+  width: 800px;
+  background-color: #fff;
+  padding: 40px 10px;
+}
+div#emodalwrap>h3{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+div#eventcont{
+  width: 560px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div#eventcont>p{
+  width: 300px;
+  height: 300px;
+  background: url("../static/image/event/bigboxClose.png") no-repeat center;
+  margin: 0 auto 20px;
+  background-size: cover;
+}
+
+div#randomresul{
+  display: none;
+}
+
+ul.treasured{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+ul.treasured>li{
+  width: 28%;
+  height: 156px;
+  text-align: center;
+  margin: 10px;
+}
+
+div#eventcont>button{
+  padding: 10px 20px;
+  width: 300px;
+  font-size: 24px;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+div#eventcont>button:active{
+  background-color: skyblue;
+  color: red;
+}
+
+
+.smallbox{
+  background-size: cover;
+}
+
+
+@media screen and (min-width: 1390px) {
+  div#eventwrap{
+    width: 1210px;
+  }
+
+}
+@media screen and (min-width: 980px) and (max-width:1389px) {}
+@media screen and (min-width: 580px) and (max-width:979px) {
+
+  div#roullete>dl{
+    right: 50%;
+    margin-right: -180px;
+  }
+
+  div#emodal{
+    /* display: block; */
+    padding-top: 100px;
+  }
+
+  div#emodalwrap{
+    position: static;
+    margin-left: 0px;
+    width: 81.63265306122449%;
+    margin: 0 auto;
+  }
+
+  div#eventcont{
+    width: 70%;
+  }
+
+}
+@media screen and (min-width: 5px) and (max-width:579px) {
+  
+  div#eventwrap>div{
+   padding-top: 25px;
+  }
+  
+  div#eventwrap>div>dl{
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+
+  div#roullete>dl{
+    position: static;
+    margin-top: 0px;
+    margin: 0 auto;
+  }
+  
+  div#newmem>dl{
+    position: static;
+    margin-top: 0px;
+    margin: 0 auto;
+  }
+
+div#emodal{
+  /* display: block; */
+  padding-top: 100px;
+}
+
+div#emodalwrap{
+  position: static;
+  margin-left: 0px;
+  width: 98.27586206896552%;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+div#eventcont{
+  width: 100%;
+
+}
+
+div#randomresul{
+  /* display: block; */
+  margin-bottom: 20px;
+}
+
+ul.treasured>li{
+  width: 28%;
+  height: 100px;
+  text-align: center;
+  background-color: skyblue;
+  margin: 5px;
+}
+
+}
