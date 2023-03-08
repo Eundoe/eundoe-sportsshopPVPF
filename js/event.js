@@ -1,6 +1,5 @@
 import Header from './HFwork'
 import $ from 'jquery'
-import ErrorAct from './error'
 
 
 $(function(){
@@ -74,37 +73,3 @@ function RandomTreasure(){
 
 }
 
-ErrorAct
-// merge place
-
-$('ul#policy>li>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-  
-})
-
-$('ul#sns>li>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-$('div#login>span>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-$('ul#mypage>li:nth-child(1)>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-$('ul#mypage>li:nth-child(3)>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-// differ Place
-$('div#newmem>dl>dd>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})

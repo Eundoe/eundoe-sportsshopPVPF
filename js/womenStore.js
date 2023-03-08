@@ -1,7 +1,6 @@
 import $ from "jquery";
 import Header from "./HFwork";
 import Fdata from '../static/data/productwomen.json'
-import ErrorAct from './error'
 
 let Ivalue = 0
 $(function(){
@@ -234,45 +233,6 @@ CartBtn.addEventListener('click',function(){
 })
 
 
-ErrorAct
-// merge place
-
-$('ul#policy>li>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-  
-})
-
-$('ul#sns>li>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-$('div#login>span>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-$('ul#mypage>li:nth-child(1)>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-$('ul#mypage>li:nth-child(3)>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-// diff place
-$('button.mbuy').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-$('span.mfav').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
 
 
 

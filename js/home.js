@@ -2,7 +2,6 @@ import Header from './HFwork'
 import $ from 'jquery'
 import trendData from '../static/data/trend.json'
 import slogunData from '../static/data/slogun.json'
-import ErrorAct from './error'
 
 
 
@@ -145,41 +144,4 @@ for(let i = 0 ; i < (womanTrend.length); i++){
   womantrend.append(wnewList)
 }
 
-
-
 // non-function place check point
-ErrorAct
-// merge place
-
-$('ul#policy>li>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-  
-})
-
-$('ul#sns>li>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-$('div#login>span>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-$('ul#mypage>li:nth-child(1)>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-$('ul#mypage>li:nth-child(3)>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
-
-// diff place
-
-$('div#homenewmem>dl>dd>a').on('click', function(e){
-  $('div.Errorcode').slideDown(500)
-  return false
-})
