@@ -16,7 +16,8 @@
 
 ## 프로젝트 설명
 ### 프로젝트 계획서 
-> [계획서 열람하기](https://github.com/Eundoe/eundoe-sportsshopPVPF/files/10907721/A.Company.Project.Simulation.Planning_JAEHOCHO.230302.pdf)
+> [바로가기](https://github.com/Eundoe/eundoe-sportsshopPVPF/files/10920546/A.Company.Project.Simulation.Planning_JAEHOCHO.230308.pdf)
+
 
 
 ### 헤더(Header) & 푸터(Footer)
