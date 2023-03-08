@@ -16,7 +16,8 @@
 
 ## 프로젝트 설명
 ### 프로젝트 계획서 
-> 추후정추가예정
+> [계획서 열람하기](https://github.com/Eundoe/eundoe-sportsshopPVPF/files/10907721/A.Company.Project.Simulation.Planning_JAEHOCHO.230302.pdf)
+
 
 ### 헤더(Header) & 푸터(Footer)
 * 헤더와 푸터는 각페이지의 Html에 삽입하고 js와 css를 공유하여 import하는 방식을 이용했습니다.
