@@ -6,7 +6,7 @@
 ## 배포링크
 > 배포방식은 AWS: S3의 간이 배포를 이용하였습니다.
 
-> [계획서 열람하기](http://eundoe-sportsspring.s3-website.ap-northeast-2.amazonaws.com)
+> [바로가기](http://eundoe-sportsspring.s3-website.ap-northeast-2.amazonaws.com)
 
 ---
 ## 개발 도구 및 환경
@@ -16,7 +16,7 @@
 
 ## 프로젝트 설명
 ### 프로젝트 계획서 
-> [바로가기](https://github.com/Eundoe/eundoe-sportsshopPVPF/files/10920546/A.Company.Project.Simulation.Planning_JAEHOCHO.230308.pdf)
+> [계획서기열람하기](https://github.com/Eundoe/eundoe-sportsshopPVPF/files/10920546/A.Company.Project.Simulation.Planning_JAEHOCHO.230308.pdf)
 
 
 
